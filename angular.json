@@ -54,18 +54,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "PracticeApp7:build"
+            "buildTarget": "PracticeApp7:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "PracticeApp7:build:production"
+              "buildTarget": "PracticeApp7:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "PracticeApp7:build"
+            "buildTarget": "PracticeApp7:build"
           }
         },
         "test": {
